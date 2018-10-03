@@ -1,5 +1,6 @@
 import React from 'react'
 import Text from './Text';
+import User from './data';
 
 class AppComponent extends React.Component {
 	
@@ -23,6 +24,11 @@ class AppComponent extends React.Component {
 		 <p>{this.state.text}</p>
 		 <button onClick={this.onButtonClick.bind(this)}> Click </button>
 		</div>
+		
+		
+		<User firstName="Andrzej" lastName="Harnas" age={35} />
+		<User />
+		
 		</div>
 		);
 	}
