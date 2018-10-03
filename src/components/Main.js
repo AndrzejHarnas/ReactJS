@@ -16,7 +16,8 @@ class AppComponent extends React.Component {
 		return(
 		<div className="main">
 		 <p>Hello World!</p>
-		 <Text />
+		 <Text staticText="Text from child component"
+          clickText={this.state.text}		 />
 		
 		<div className="click">
 		 <p>{this.state.text}</p>
