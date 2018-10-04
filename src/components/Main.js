@@ -27,7 +27,7 @@ class AppComponent extends React.Component {
 		
 		
 		<User firstName="Andrzej" lastName="Harnas" age={35} />
-		<User />
+
 		
 		</div>
 		);
